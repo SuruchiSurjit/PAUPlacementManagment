@@ -1,13 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import HODashobard from './component/HodDashboard';
+// import Login from './component/Login';
+// import Homepage from './component/Homepage';
+// import AdminDashboard from './component/AdminDashboard'
+import AdvisoryDashboard from './component/AdvisoryDashboard';
+//  import DeanDashboard from './component/DeanDashboard';
+
+// import PlacementCellDashboard from './component/PlacementCellDashboard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Homepage/> */}
+    {/* <AdminDashboard/> */}
+    <AdvisoryDashboard/>
+    {/* <DeanDashboard/> */}
+    {/* <HODashobard/> */}
+    {/* <PlacementCellDashboard/> */}
   </React.StrictMode>
 );
 

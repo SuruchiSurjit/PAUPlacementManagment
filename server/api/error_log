@@ -1,0 +1,31 @@
+[15-Dec-2020 14:56:39 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php on line 279
+[15-Dec-2020 14:56:39 Asia/Kolkata] PHP Fatal error:  Uncaught Exception: Connect Error 1045: Access denied for user 'root'@'localhost' (using password: NO) in /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php:281
+Stack trace:
+#0 /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php(360): MysqliDb->connect('default')
+#1 /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php(1734): MysqliDb->mysqli()
+#2 /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php(1385): MysqliDb->_prepareQuery()
+#3 /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php(646): MysqliDb->_buildQuery(NULL)
+#4 /home/paueddnl/public_html/xenelectricitybill/server/api/service.php(331): MysqliDb->get('record_master')
+#5 {main}
+  thrown in /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php on line 281
+[15-Dec-2020 14:56:39 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php on line 279
+[15-Dec-2020 14:56:39 Asia/Kolkata] PHP Fatal error:  Uncaught Exception: Connect Error 1045: Access denied for user 'root'@'localhost' (using password: NO) in /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php:281
+Stack trace:
+#0 /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php(360): MysqliDb->connect('default')
+#1 /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php(1734): MysqliDb->mysqli()
+#2 /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php(1385): MysqliDb->_prepareQuery()
+#3 /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php(646): MysqliDb->_buildQuery(NULL)
+#4 /home/paueddnl/public_html/xenelectricitybill/server/api/service.php(274): MysqliDb->get('record_master')
+#5 {main}
+  thrown in /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php on line 281
+[15-Dec-2020 14:56:39 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php on line 279
+[15-Dec-2020 14:56:39 Asia/Kolkata] PHP Fatal error:  Uncaught Exception: Connect Error 1045: Access denied for user 'root'@'localhost' (using password: NO) in /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php:281
+Stack trace:
+#0 /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php(360): MysqliDb->connect('default')
+#1 /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php(1734): MysqliDb->mysqli()
+#2 /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php(1385): MysqliDb->_prepareQuery()
+#3 /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php(646): MysqliDb->_buildQuery(1)
+#4 /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php(668): MysqliDb->get('record_master', 1, 'sum(approvalSta...')
+#5 /home/paueddnl/public_html/xenelectricitybill/server/api/service.php(125): MysqliDb->getOne('record_master', 'sum(approvalSta...')
+#6 {main}
+  thrown in /home/paueddnl/public_html/xenelectricitybill/server/api/MysqliDb.php on line 281
